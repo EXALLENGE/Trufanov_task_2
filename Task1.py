@@ -1,5 +1,5 @@
 import random
-words = ['imagination', 'pleasure', 'apple', 'homework', 'armageddon']
+words = ['imagination', 'pleasure', 'apple', 'homework']
 word = random.choice(words)
 lst_word = list(word)
 lst_guessed = ['*']*len(word)
